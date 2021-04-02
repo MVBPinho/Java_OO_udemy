@@ -1,9 +1,20 @@
 package aplication;
 
+import java.util.Locale;
+import java.util.Scanner;
+
 public class Program {
 
 	public static void main(String[] args) {
 
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Testando a funcao charAt - Digite sim ou nao: ");
+		char x = sc.next().charAt(0);
+		System.out.println(x);
+		
+		System.out.println();
+		System.out.println("Testando outras funcoes para String");
 		String original = "abcde FGHIJ ABC abc DEFG     ";
 
 		String s01 = original.toLowerCase();
@@ -26,5 +37,15 @@ public class Program {
 		System.out.println("replace('abc', 'xy'): -" + s07 + "-");
 		System.out.println("index of 'bc': " + i);
 		System.out.println("last index of 'bc': " + j);
+		
+		System.out.println();
+		System.out.println("Testando o split");
+		String s = "potato apple lemon";
+        String[] vect = s.split(" ");
+        System.out.println(vect[0]);
+        System.out.println(vect[1]);
+        System.out.println(vect[2]);
+		
+		sc.close();
 	}
 }

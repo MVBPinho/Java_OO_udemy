@@ -1,0 +1,35 @@
+Formatar
+*toLowerCase() -> Transformar tudo em minusculo 
+
+*toUpperCase() -> Transformar tudo em maiúsculo
+
+*trim()  -> Remover espaço(editado)
+Recortar
+*substring(inicio) -> vou passar um valor e ele vai gerar um novo caractere da letra que eu passar em diante, por exemplo 
+String nome = "Marcos";
+nome.substring(2) = rcos
+
+*substring(inicio, fim)
+nome.substring(1,5) = arco(editado)
+Substituir
+Replace(char, char)
+Replace(string, string)
+Buscar
+IndexOf
+LastIndexOf
+str.Split("")
+------------------------------------------------------
+*Toda classe em Java é uma subclasse da casse Object
+*Object possui os seguintes métodos:
+- getClass -> retorna o tipo do objeto
+- equals -> compara se o objeto é igual a outro
+- hashCode -> retorna um código hash do objeto
+- toString -> converte o objeto para string
+-----------------------------------------------------
+com o charAt(0) vou pegar a primeira posição, se for uma String vou pegar o primeiro valor
+next().charAt(0) -> ler um caractere
+-----------------------------------------------------
+nextLine() -> Le a linha toda
+nextDouble -> Le valores double
+nextInt -> Le valores int
+next -> Le String

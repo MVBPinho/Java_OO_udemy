@@ -31,7 +31,7 @@ public class Program {
 					System.out.printf("Position: %d, %d%n", i, j);
 					if(j > 0)
 						System.out.printf("Left: %d%n", mat[i][j-1]);
-					if(j < mat[i].length -1)
+					if(j < mat[i].length - 1)
 						System.out.printf("Right: %d%n", mat[i][j+1]);
 					if(i > 0)
 						System.out.printf("Up: %d%n", mat[i-1][j]);

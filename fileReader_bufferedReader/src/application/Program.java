@@ -8,7 +8,7 @@ public class Program {
 
 	public static void main(String[] args) {
 
-		String path = "/home/pinho/git/curso_oo_udemy/exceptions_finally/txt";
+		String path = "/home/pinho/git/curso_oo_udemy/fileReader_bufferedReader/txt";
 		
 		try (BufferedReader br = new BufferedReader(new FileReader(path))){
 			

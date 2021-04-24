@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import entities.Product;
-import util.UpperCaseName;
 
 public class Program {
 

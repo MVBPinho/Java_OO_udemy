@@ -41,3 +41,15 @@ git pull <nome do remote> <nome da branch>
 Não é permitido enviar um push se seu repositório local está atrasado em relação ao histórico do repositório remoto!
 Você tem que atualizar o repositório local:
 git pull <nome do remote> <nome do branch>
+
+## Resolvendo conflito
+Analise o código fonte
+Faça as edições necessárias
+Faça um novo commit
+
+## Como sobrescrever um histórico no GitHub (# ATENÇÃO: ação destrutiva!)
+git reset --hard <código do commit>
+git push -f <nome do remote> <nome do branch>
+
+## Como apontar o projeto para outro repositório remoto
+git remote set-url origin git@github.com:seuusuario/seurepositorio.git

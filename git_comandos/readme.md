@@ -32,3 +32,12 @@ git reset --hard <código do commit>
 ### voltar o projeto ao estado do penúltimo commit:
 git status
 git reset --hard HEAD~1
+
+## Como atualizar o repositório local em relação ao remoto
+git status
+git pull <nome do remote> <nome da branch>
+
+## Como resolver push rejeitado
+Não é permitido enviar um push se seu repositório local está atrasado em relação ao histórico do repositório remoto!
+Você tem que atualizar o repositório local:
+git pull <nome do remote> <nome do branch>

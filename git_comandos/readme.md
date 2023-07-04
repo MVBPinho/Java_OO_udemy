@@ -3,7 +3,7 @@ git status
 git reset
 
 ## Como desfazer modificações não salvas
-git status
+git status <br>
 git reset
 git clear -df
 git checkout -- .

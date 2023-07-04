@@ -12,11 +12,11 @@ git checkout -- .
 ### habilitar o modo de edição:
 i
 ### sair do VIM, salvando as alterações:
-<ESC> <br>
+<ESC>
 :wq <br>
 <ENTER>
 ### Sair do VIM, descartando as alterações:
-<ESC> <br>
+<ESC>
 :q! <br>
 <ENTER>
 

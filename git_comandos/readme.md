@@ -12,13 +12,13 @@ git checkout -- .
 ### habilitar o modo de edição:
 i
 ### sair do VIM, salvando as alterações:
-<ESC>
+ESC <br>
 :wq <br>
-<ENTER>
+ENTER
 ### Sair do VIM, descartando as alterações:
-<ESC>
+ESC <br>
 :q! <br>
-<ENTER>
+ENTER 
 
 ## Como desfazer o último commit:
 Desfazer o último commit sem desfazer as modificações nos arquivos: <br>

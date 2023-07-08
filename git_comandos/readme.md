@@ -1,3 +1,12 @@
+## Como editar o commit
+git commit -amend <br>
+Realize a edição do commit e depois digite: <br>
+ESC ESC <br>
+: <br>
+W <br>
+Q <br>
+Enter
+
 ## Como remover arquivos da área de stage
 git status <br>
 git reset
@@ -11,6 +20,8 @@ git checkout -- .
 ## O que fazer quando abre o editor VIM
 ### habilitar o modo de edição:
 i
+### Salvar o editar
+W
 ### sair do VIM, salvando as alterações:
 ESC <br>
 :wq <br>
